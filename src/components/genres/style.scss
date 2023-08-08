@@ -1,0 +1,13 @@
+.genres {
+  display: flex;
+  gap: 5px;
+  .genre {
+    background-image: var(--gradient);
+    padding: 5px 7px;
+    font-size: 12px;
+    border-radius: 15px;
+    color: white;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+}

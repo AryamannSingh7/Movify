@@ -30,7 +30,12 @@
   .logo {
     cursor: pointer;
     img {
-      height: 50px;
+      height: 100px;
+      width: 110px;
+      @include md {
+        height: 150px;
+        width: 160px;
+      }
     }
   }
 
